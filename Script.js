@@ -76,7 +76,18 @@ function validar(event)
         return;
     }
     {
-        alert("Todo Correcto!!   "+nombre+"   "+apellido+"   "+rut+"   "+direccion+"   "+correo+"   "+telefono+"   "+marca+"   "+genero+"   "+tipo+"   "+cantidad+"   "+fecha);
+        alert("DATOS DE CONTACTO:   \n"+
+        "Nombre: "+nombre+"\n"+
+        "Apellido: "+apellido+"   \n"+
+        "Rut: "+rut+"   \n"+
+        "Dirección: "+direccion+"   \n"+
+        "Correo: "+correo+"   \n"+
+        "Telefono: "+telefono+"   \n"+
+        "Marca: "+marca+"   \n"+
+        "Genero: "+genero+"   \n"+
+        "Tipo de lente: "+tipo+"   \n"+
+        "Cantidad: "+cantidad+"   \n"+
+        "Fecha Solicitud: "+fecha);
     }
 
     /* 
